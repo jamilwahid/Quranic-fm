@@ -1,15 +1,27 @@
-# React + Vite
+# Quranic.fm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A purely auditory, distraction-free web application for listening to the Quran, conceptualized with a premium, minimalist "jukebox" aesthetic.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Beautiful Dual Themes**: Seamlessly transition between an airy, vibrant "Sunset Hills" light mode and a grounded, earthy "Starry Night" dark mode.
+- **Dynamic Visualizer**: Features a sleek, responsive Sacred Geometry mandala that pulses and smoothly rotates with the audio playback.
+- **Premium UI / UX**: Employs frosted glassmorphism overlays, subtle micro-animations, and high-contrast readable typography (Outfit / Inter fonts).
+- **Zustand State Management**: Lightweight, fast global state handles the audio context, track progress, looping states, and reciter/chapter selection without prop-drilling.
+- **Live Quran API**: Integrates directly with the `api.quran.com/api/v4` to dynamically fetch 114 Surahs, multiple Qaris, and high-quality audio URLs.
 
-## React Compiler
+## Tech Stack
+- React 18
+- Vite
+- Zustand (Global State)
+- Lucide React (Icons)
+- Vanilla CSS Variables (Theming / Design System)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
+
+1. Clone the repository
+2. Run `npm install` inside the `quranic-fm` directory.
+3. Run `npm run dev` to start the local development server. see [this documentation](https://react.dev/learn/react-compiler/installation).
 
 ## Expanding the ESLint configuration
 
