@@ -1,6 +1,6 @@
 # Quranic.fm
 
-A purely auditory, distraction-free web application for listening to the Quran, conceptualized with a premium, minimalist "jukebox" aesthetic.
+A purely simple distraction-free web application for listening to the Quran. 
 
 ## Features
 
