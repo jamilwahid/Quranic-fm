@@ -1,0 +1,29 @@
+@import './styles/variables.css';
+@import './styles/animations.css';
+@import './styles/design-system.css';
+
+/* Entry overrides */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide scrollbar for a cleaner feel but keep functionality */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--bg-tertiary);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-glow);
+}
