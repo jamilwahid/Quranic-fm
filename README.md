@@ -15,9 +15,3 @@ A purely simple distraction-free web application for listening to the Quran, bui
 - Live Quran API (`api.quran.com/api/v4`)
 - Vanilla CSS Variables for dual-theme generation
 
-## How to Run Locally
-
-If you want to spin the jukebox up on your own machine:
-1. Clone the repository
-2. Run `npm install` inside the `quranic-fm` folder.
-3. Run `npm run dev` to start the local application.
