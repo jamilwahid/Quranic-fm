@@ -29,6 +29,19 @@ function App() {
       overflow: 'hidden' // Important for the overlapping vinyl
     }}>
 
+      {/* Floating Header / Title */}
+      <div style={{
+        position: 'absolute',
+        top: '2rem',
+        left: '2rem',
+        zIndex: 50,
+        display: 'flex',
+        alignItems: 'center',
+        gap: '0.75rem'
+      }}>
+        <span style={{ fontFamily: 'var(--font-primary)', fontWeight: '600', fontSize: '1.2rem', color: 'var(--text-primary)' }}>Quranic.fm</span>
+      </div>
+
       {/* Floating Theme Switcher */}
       <button
         onClick={toggleTheme}
